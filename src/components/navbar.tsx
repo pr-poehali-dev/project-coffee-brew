@@ -12,9 +12,9 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
-              src="https://cdn.poehali.dev/projects/6fa6fd5d-4cfa-460e-859f-1e32196a40ac/bucket/e3d66c30-704e-4f19-b19e-db5628c2f563.png"
+              src="https://cdn.poehali.dev/projects/6fa6fd5d-4cfa-460e-859f-1e32196a40ac/bucket/f2adf8bd-91f7-4dd0-8a2c-5b13f5f988f2.png"
               alt="Leasy IT"
-              className="h-10 w-auto"
+              className="h-14 w-auto"
             />
           </div>
 

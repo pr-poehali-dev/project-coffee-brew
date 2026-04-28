@@ -8,9 +8,9 @@ export function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <img
-              src="https://cdn.poehali.dev/projects/6fa6fd5d-4cfa-460e-859f-1e32196a40ac/bucket/e3d66c30-704e-4f19-b19e-db5628c2f563.png"
+              src="https://cdn.poehali.dev/projects/6fa6fd5d-4cfa-460e-859f-1e32196a40ac/bucket/f2adf8bd-91f7-4dd0-8a2c-5b13f5f988f2.png"
               alt="Leasy IT"
-              className="h-12 w-auto mb-4"
+              className="h-16 w-auto mb-4"
             />
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               IT-аутсорсинг для бизнеса любого масштаба. Разрабатываем, запускаем и сопровождаем цифровые продукты.
