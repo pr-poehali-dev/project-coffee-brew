@@ -7,9 +7,11 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              Leasy<span className="text-red-500">IT</span>
-            </h2>
+            <img
+              src="https://cdn.poehali.dev/projects/6fa6fd5d-4cfa-460e-859f-1e32196a40ac/bucket/9a4d2be7-f70c-42dc-87e0-99e32b6bcb09.png"
+              alt="Leasy IT"
+              className="h-12 w-auto brightness-0 invert mb-4"
+            />
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               IT-аутсорсинг для бизнеса любого масштаба. Разрабатываем, запускаем и сопровождаем цифровые продукты.
             </p>
