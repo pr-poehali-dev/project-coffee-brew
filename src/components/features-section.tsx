@@ -1,41 +1,42 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import Icon from "@/components/ui/icon"
 
 const features = [
   {
     title: "Разработка под ключ",
     description: "Берём проект с нуля до запуска: анализ, архитектура, разработка, тестирование и деплой. Вы получаете готовый продукт.",
-    icon: "zap",
+    icon: "Zap",
     badge: "Полный цикл",
   },
   {
     title: "Команда на аутсорс",
     description: "Выделенные команды разработчиков, которые работают как ваш внутренний IT-отдел — прозрачно, предсказуемо и по фиксированной цене.",
-    icon: "link",
+    icon: "Link",
     badge: "Команда",
   },
   {
     title: "Быстрый старт",
     description: "Запускаем проект в течение 3 дней после брифинга. Никаких долгих согласований — сразу в работу.",
-    icon: "target",
+    icon: "Target",
     badge: "Скорость",
   },
   {
     title: "Гибкие технологии",
     description: "React, Python, Node.js, мобильные приложения, CRM-интеграции — работаем со стеком, который нужен вашему бизнесу.",
-    icon: "brain",
+    icon: "Brain",
     badge: "Технологии",
   },
   {
     title: "Прозрачная стоимость",
     description: "Фиксированный бюджет или Time & Material — выбираете вы. Без скрытых платежей и сюрпризов при сдаче.",
-    icon: "lock",
+    icon: "Lock",
     badge: "Надёжность",
   },
   {
     title: "Поддержка 24/7",
     description: "Мониторинг и поддержка продукта после запуска. Ваш бизнес не останавливается — мы всегда на связи.",
-    icon: "globe",
+    icon: "Globe",
     badge: "Поддержка",
   },
 ]
@@ -60,14 +61,9 @@ export function FeaturesSection() {
             >
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-3xl">
-                    {feature.icon === "brain" && "&#129504;"}
-                    {feature.icon === "lock" && "&#128274;"}
-                    {feature.icon === "globe" && "&#127760;"}
-                    {feature.icon === "zap" && "&#9889;"}
-                    {feature.icon === "link" && "&#128279;"}
-                    {feature.icon === "target" && "&#127919;"}
-                  </span>
+                  <div className="w-10 h-10 bg-accent/20 rounded-lg flex items-center justify-center">
+                    <Icon name={feature.icon} fallback="Zap" size={22} className="text-accent-foreground" />
+                  </div>
                   <Badge variant="secondary" className="bg-accent text-accent-foreground">
                     {feature.badge}
                   </Badge>
