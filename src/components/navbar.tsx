@@ -12,9 +12,9 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <img
-              src="https://cdn.poehali.dev/projects/6fa6fd5d-4cfa-460e-859f-1e32196a40ac/bucket/9a4d2be7-f70c-42dc-87e0-99e32b6bcb09.png"
+              src="https://cdn.poehali.dev/projects/6fa6fd5d-4cfa-460e-859f-1e32196a40ac/bucket/e3d66c30-704e-4f19-b19e-db5628c2f563.png"
               alt="Leasy IT"
-              className="h-10 w-auto brightness-0 invert"
+              className="h-10 w-auto"
             />
           </div>
 
