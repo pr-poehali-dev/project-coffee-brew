@@ -14,7 +14,7 @@ export function Navbar() {
             <img
               src="https://cdn.poehali.dev/projects/6fa6fd5d-4cfa-460e-859f-1e32196a40ac/bucket/f2adf8bd-91f7-4dd0-8a2c-5b13f5f988f2.png"
               alt="Leasy IT"
-              className="h-14 w-auto"
+              className="h-20 w-auto"
             />
           </div>
 
